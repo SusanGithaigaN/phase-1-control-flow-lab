@@ -1,3 +1,4 @@
+/* Correct greeting based on the distance the passenger desires to travel. */
 function scuberGreetingForFeet(ride){
   if (ride <= 400){
     return 'This one is on me!'
@@ -7,13 +8,14 @@ function scuberGreetingForFeet(ride){
   return 'I will gladly take your thirty bucks.';
 }
 }
+/* Return the correct response based on the desired destination of the passenger. */
 function ternaryCheckCity(city){
-  // Write your code here!
+  
     return city === 'NYC'? "Ok, sounds good." : "No go."
 }
-
+/* Return a response based on the generosity of the passenger's tip. */
 function switchOnCharmFromTip(tip){
-  // Write your code here!
+  
    switch(tip){
     case 'generous':
       return 'Thank you so much.'
